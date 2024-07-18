@@ -1,0 +1,18 @@
+h3 {
+  text-align: center;
+  color: #232323;
+  margin: 0;
+  padding: 0;
+}
+
+.clase {
+  border: #a9a8a838 1px solid;
+  border-radius: 10px;
+  background: #a9a8a836;
+  width: 50%;
+  padding: 15px;
+}
+
+.clase:hover {
+  box-shadow: #a9a8a8 0px 0px 5px;
+}

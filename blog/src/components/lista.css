@@ -1,0 +1,8 @@
+.clases {
+  list-style-type: none;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
