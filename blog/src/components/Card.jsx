@@ -1,11 +1,16 @@
 import './card.css'
 
-export function Card({ titulo, descripcion, url }) {
+export function Card({ titulo, descripcion, url, urlV }) {
   return (
     <li className='clase'>
-      <h3>{titulo}</h3>
-      <p>{descripcion}</p>
-      <a href={url}>Leer PDF</a>
+      <header>
+        <h3>{titulo}</h3>
+        <p>{descripcion}</p>
+      </header>
+      <div className='botones'>
+        <a href={url}>PDF</a>
+        <a href={urlV}>Video</a>
+      </div>
     </li>
   )
 }

@@ -11,6 +11,7 @@ export function App() {
         <input className='inputBuscador' type='text' />
         <input className='botonBuscador' type='submit' value='Buscar' />
       </div>
+      <h2>Clases</h2>
       <article>
         <Lista />
       </article>

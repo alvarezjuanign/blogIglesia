@@ -1,7 +1,11 @@
 h3 {
-  text-align: center;
   color: #232323;
   margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 15px;
   padding: 0;
 }
 
@@ -9,10 +13,42 @@ h3 {
   border: #a9a8a838 1px solid;
   border-radius: 10px;
   background: #a9a8a836;
-  width: 50%;
-  padding: 15px;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .clase:hover {
   box-shadow: #a9a8a8 0px 0px 5px;
+}
+
+.botones {
+  display: flex;
+  gap: 30px;
+}
+
+.botones a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  outline: white solid 1px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #2fa6aac7;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botones a:hover {
+  scale: 1.1;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    display: none;
+  }
 }

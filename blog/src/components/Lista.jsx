@@ -6,33 +6,52 @@ export function Lista() {
     <ul className='clases'>
       <Card
         className='clase'
-        titulo='Clase 1'
-        descripcion='Clase 1'
-        url='https://drive.google.com/file/d/11zrmSVGob4kJAZVbjLmIm4rGra_SH3rI/view?usp=drive_link'
-      />
-      <Card
-        className='clase'
-        titulo='Clase 2'
-        descripcion='Clase 1'
-        url='https://drive.google.com/file/d/11zrmSVGob4kJAZVbjLmIm4rGra_SH3rI/view?usp=drive_link'
-      />
-      <Card
-        className='clase'
-        titulo='Clase 3'
-        descripcion='Clase 1'
-        url='https://drive.google.com/file/d/11zrmSVGob4kJAZVbjLmIm4rGra_SH3rI/view?usp=drive_link'
-      />
-      <Card
-        className='clase'
-        titulo='Clase 4'
-        descripcion='Clase 1'
-        url='https://drive.google.com/file/d/11zrmSVGob4kJAZVbjLmIm4rGra_SH3rI/view?usp=drive_link'
-      />
-      <Card
-        className='clase'
         titulo='Clase 5'
-        descripcion='Clase 1'
-        url='https://drive.google.com/file/d/11zrmSVGob4kJAZVbjLmIm4rGra_SH3rI/view?usp=drive_link'
+        descripcion='¿CUÁLES SON LOS FRUTOS DE ESTE CAMBIO? (PARTE 1)'
+        url='https://drive.google.com/file/d/1t61QwDeXaRcLwXANwtPNNCKXESxA7V63/view?usp=drive_link'
+        urlV='https://www.facebook.com/share/v/TCkfTGathzfdYx8Q/?mibextid=qi2Omg'
+      />
+      <Card
+        className='clase'
+        titulo='Clase 6'
+        descripcion='¿CUÁLES SON LOS FRUTOS DE ESTE CAMBIO? (PARTE 2)'
+        url='https://drive.google.com/file/d/1ssxtQFxgvAxBSjIKFMffCa0Gdf17m_PL/view?usp=drive_link'
+        urlV=''
+      />
+      <Card
+        className='clase'
+        titulo='Clase 7'
+        descripcion='LA CONVERSIÓN Y LA IGLESIA'
+        url='https://drive.google.com/file/d/1PHvD7kBqayjuUVJ5AwlUIQutQhD_eSOU/view?usp=drive_link'
+        urlV=''
+      />
+      <Card
+        className='clase'
+        titulo='Clase 7'
+        descripcion='LA CONVERSIÓN Y LA IGLESIA'
+        url='https://drive.google.com/file/d/1PHvD7kBqayjuUVJ5AwlUIQutQhD_eSOU/view?usp=drive_link'
+        urlV=''
+      />
+      <Card
+        className='clase'
+        titulo='Clase 7'
+        descripcion='LA CONVERSIÓN Y LA IGLESIA'
+        url='https://drive.google.com/file/d/1PHvD7kBqayjuUVJ5AwlUIQutQhD_eSOU/view?usp=drive_link'
+        urlV=''
+      />
+      <Card
+        className='clase'
+        titulo='Clase 7'
+        descripcion='LA CONVERSIÓN Y LA IGLESIA'
+        url='https://drive.google.com/file/d/1PHvD7kBqayjuUVJ5AwlUIQutQhD_eSOU/view?usp=drive_link'
+        urlV=''
+      />
+      <Card
+        className='clase'
+        titulo='Clase 7'
+        descripcion='LA CONVERSIÓN Y LA IGLESIA'
+        url='https://drive.google.com/file/d/1PHvD7kBqayjuUVJ5AwlUIQutQhD_eSOU/view?usp=drive_link'
+        urlV=''
       />
     </ul>
   )
