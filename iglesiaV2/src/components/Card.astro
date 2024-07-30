@@ -1,61 +1,99 @@
 ---
 interface Props {
-	title: string;
-	body: string;
-	href: string;
+  titulo: string
+  descripcion: string
+  url: string
+  urlV: string
+  key: string
 }
 
-const { href, title, body } = Astro.props;
+const { titulo, descripcion, url, urlV } = Astro.props
 ---
 
-<li class="link-card">
-	<a href={href}>
-		<h2>
-			{title}
-			<span>&rarr;</span>
-		</h2>
-		<p>
-			{body}
-		</p>
-	</a>
+<li class='clase'>
+  <header>
+    <p class='angosto'><strong>{titulo}</strong></p>
+    <p class='ancho'><strong>{titulo}: </strong><i>{descripcion}</i></p>
+  </header>
+  <div class='botones'>
+    <a href={url}>PDF</a>
+    <a href={urlV}>Video</a>
+  </div>
 </li>
 <style>
-	.link-card {
-		list-style: none;
-		display: flex;
-		padding: 1px;
-		background-color: #23262d;
-		background-image: none;
-		background-size: 400%;
-		border-radius: 7px;
-		background-position: 100%;
-		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-	}
-	.link-card > a {
-		width: 100%;
-		text-decoration: none;
-		line-height: 1.4;
-		padding: calc(1.5rem - 1px);
-		border-radius: 8px;
-		color: white;
-		background-color: #23262d;
-		opacity: 0.8;
-	}
-	h2 {
-		margin: 0;
-		font-size: 1.25rem;
-		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-	p {
-		margin-top: 0.5rem;
-		margin-bottom: 0;
-	}
-	.link-card:is(:hover, :focus-within) {
-		background-position: 0;
-		background-image: var(--accent-gradient);
-	}
-	.link-card:is(:hover, :focus-within) h2 {
-		color: rgb(var(--accent-light));
-	}
+  h3 {
+    color: #232323;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  header {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  strong {
+    font-size: 20px;
+  }
+
+  .clase {
+    border: #a9a8a838 1px solid;
+    border-radius: 10px;
+    background: #a9a8a838;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .clase:hover {
+    box-shadow: #a9a8a8 0px 0px 5px;
+    outline: #a9a8a8 2px dotted;
+  }
+
+  .botones {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .botones a {
+    text-decoration: none;
+    color: #2fa6aaa0;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+
+  .botones a:hover {
+    background: #2fa6aa81;
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+  .ancho {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .ancho {
+      display: block;
+    }
+
+    .angosto {
+      display: none;
+    }
+  }
 </style>

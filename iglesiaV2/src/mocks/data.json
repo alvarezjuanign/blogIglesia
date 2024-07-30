@@ -5,31 +5,31 @@
       "className": "clase",
       "titulo": "Clase 1",
       "descripcion": "...",
-      "url": "",
-      "urlV": ""
+      "url": "...",
+      "urlV": "..."
     },
     {
       "id": "2",
       "className": "clase",
       "titulo": "Clase 2",
       "descripcion": "...",
-      "url": "",
-      "urlV": ""
+      "url": "...",
+      "urlV": "..."
     },
     {
       "id": "3",
       "className": "clase",
       "titulo": "Clase 3",
       "descripcion": "...",
-      "url": "",
-      "urlV": ""
+      "url": "https://drive.google.com/file/d/11zrmSVGob4kJAZVbjLmIm4rGra_SH3rI/view?usp=drive_link",
+      "urlV": "..."
     },
     {
       "id": "4",
       "className": "clase",
       "titulo": "Clase 4",
       "descripcion": "...",
-      "url": "",
+      "url": "...",
       "urlV": "https://www.facebook.com/story.php?story_fbid=1053749289447987&id=100044052351917"
     },
     {
@@ -53,7 +53,7 @@
       "className": "clase",
       "titulo": "Clase 7",
       "descripcion": "LA CONVERSIÓN Y LA IGLESIA",
-      "url": "https://drive.google.com/file/d/1ssxtQFxgvAxBSjIKFMffCa0Gdf17m_PL/view?usp=drive_link",
+      "url": "https://drive.google.com/file/d/1PHvD7kBqayjuUVJ5AwlUIQutQhD_eSOU/view?usp=drive_link",
       "urlV": "https://www.facebook.com/story.php?story_fbid=371586805960429&id=100044052351917&mibextid=qi2Omg&rdid=Y4p1VMPO2Zkc2Zc3"
     },
     {
@@ -61,8 +61,8 @@
       "className": "clase",
       "titulo": "Clase 8",
       "descripcion": "...",
-      "url": "",
-      "urlV": ""
+      "url": "...",
+      "urlV": "..."
     }
   ]
 }
