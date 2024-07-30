@@ -4,32 +4,32 @@
       "id": "1",
       "className": "clase",
       "titulo": "Clase 1",
-      "descripcion": "...",
-      "url": "...",
-      "urlV": "..."
+      "descripcion": "",
+      "url": "",
+      "urlV": ""
     },
     {
       "id": "2",
       "className": "clase",
       "titulo": "Clase 2",
-      "descripcion": "...",
-      "url": "...",
-      "urlV": "..."
+      "descripcion": "",
+      "url": "",
+      "urlV": ""
     },
     {
       "id": "3",
       "className": "clase",
       "titulo": "Clase 3",
-      "descripcion": "...",
+      "descripcion": "",
       "url": "https://drive.google.com/file/d/11zrmSVGob4kJAZVbjLmIm4rGra_SH3rI/view?usp=drive_link",
-      "urlV": "..."
+      "urlV": ""
     },
     {
       "id": "4",
       "className": "clase",
       "titulo": "Clase 4",
-      "descripcion": "...",
-      "url": "...",
+      "descripcion": "",
+      "url": "",
       "urlV": "https://www.facebook.com/story.php?story_fbid=1053749289447987&id=100044052351917"
     },
     {
@@ -60,9 +60,9 @@
       "id": "8",
       "className": "clase",
       "titulo": "Clase 8",
-      "descripcion": "...",
-      "url": "...",
-      "urlV": "..."
+      "descripcion": "",
+      "url": "",
+      "urlV": ""
     }
   ]
 }

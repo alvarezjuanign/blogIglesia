@@ -12,12 +12,26 @@ const { titulo, descripcion, url, urlV } = Astro.props
 
 <li class='clase'>
   <header>
-    <p class='angosto'><strong>{titulo}</strong></p>
-    <p class='ancho'><strong>{titulo}: </strong><i>{descripcion}</i></p>
+    {
+      descripcion ? (
+        <p>
+          <>
+            <strong>{titulo}</strong>
+            <i class='parrafo'>
+              <b>-</b> {descripcion}
+            </i>
+          </>
+        </p>
+      ) : (
+        <p>
+          <strong>{titulo}</strong>
+        </p>
+      )
+    }
   </header>
   <div class='botones'>
-    <a href={url}>PDF</a>
-    <a href={urlV}>Video</a>
+    {url && <a href={url}>PDF</a>}
+    {urlV && <a href={urlV}>Video</a>}
   </div>
 </li>
 <style>
@@ -52,6 +66,7 @@ const { titulo, descripcion, url, urlV } = Astro.props
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.3s ease;
   }
 
   .clase:hover {
@@ -87,12 +102,8 @@ const { titulo, descripcion, url, urlV } = Astro.props
     display: none;
   }
 
-  @media (min-width: 768px) {
-    .ancho {
-      display: block;
-    }
-
-    .angosto {
+  @media (max-width: 768px) {
+    .parrafo {
       display: none;
     }
   }
