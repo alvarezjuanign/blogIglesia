@@ -9,12 +9,23 @@ p {
   padding: 0;
 }
 
+header {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+strong {
+  font-size: 20px;
+}
+
 .clase {
   border: #a9a8a838 1px solid;
   border-radius: 10px;
-  background: #a9a8a836;
-  width: 80%;
-  padding: 10px;
+  background: #a9a8a838;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,33 +33,43 @@ p {
 
 .clase:hover {
   box-shadow: #a9a8a8 0px 0px 5px;
+  outline: #a9a8a8 2px dotted;
 }
 
 .botones {
   display: flex;
-  gap: 30px;
+  padding: 10px;
+  gap: 10px;
 }
 
 .botones a {
   text-decoration: none;
-  color: white;
+  color: #2fa6aaa0;
   font-size: 16px;
-  outline: white solid 1px;
   padding: 5px;
   border-radius: 5px;
-  background: #2fa6aac7;
-  font-weight: 700;
+  background: white;
   cursor: pointer;
+  font-weight: 700;
   transition: all 0.3s ease;
 }
 
 .botones a:hover {
-  scale: 1.1;
+  background: #2fa6aa81;
+  color: white;
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
-  p {
+.ancho {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .ancho {
+    display: block;
+  }
+
+  .angosto {
     display: none;
   }
 }

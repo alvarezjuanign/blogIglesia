@@ -1,0 +1,58 @@
+import './lista.css'
+import { Card } from './Card.jsx'
+
+export function Lista() {
+  return (
+    <ul className='clases'>
+      <Card
+        className='clase'
+        titulo='Clase 1'
+        descripcion='...'
+        url=''
+        urlV=''
+      />
+      <Card
+        className='clase'
+        titulo='Clase 2'
+        descripcion='...'
+        url=''
+        urlV=''
+      />
+      <Card
+        className='clase'
+        titulo='Clase 3'
+        descripcion='...'
+        url=''
+        urlV=''
+      />
+      <Card
+        className='clase'
+        titulo='Clase 4'
+        descripcion='...'
+        url=''
+        urlV='https://www.facebook.com/story.php?story_fbid=1053749289447987&id=100044052351917'
+      />
+      <Card
+        className='clase'
+        titulo='Clase 5'
+        descripcion='¿CUÁLES SON LOS FRUTOS DE ESTE CAMBIO? (PARTE 1)'
+        url='https://drive.google.com/file/d/1t61QwDeXaRcLwXANwtPNNCKXESxA7V63/view?usp=drive_link'
+        urlV='https://www.facebook.com/share/v/TCkfTGathzfdYx8Q/?mibextid=qi2Omg'
+      />
+      <Card
+        className='clase'
+        titulo='Clase 6'
+        descripcion='¿CUÁLES SON LOS FRUTOS DE ESTE CAMBIO? (PARTE 2)'
+        url='https://drive.google.com/file/d/1ssxtQFxgvAxBSjIKFMffCa0Gdf17m_PL/view?usp=drive_link'
+        urlV='https://www.facebook.com/story.php?story_fbid=963911128868090&id=100044052351917&mibextid=qi2Omg&rdid=cHycC023p9IkcHEH'
+      />
+      <Card
+        className='clase'
+        titulo='Clase 7'
+        descripcion='LA CONVERSIÓN Y LA IGLESIA'
+        url='https://drive.google.com/file/d/1ssxtQFxgvAxBSjIKFMffCa0Gdf17m_PL/view?usp=drive_link'
+        urlV='https://www.facebook.com/story.php?story_fbid=371586805960429&id=100044052351917&mibextid=qi2Omg&rdid=Y4p1VMPO2Zkc2Zc3'
+      />
+    </ul>
+  )
+}
